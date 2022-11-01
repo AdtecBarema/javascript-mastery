@@ -1,0 +1,1 @@
+console.log ("Buckel, its time to lear Javascript");
