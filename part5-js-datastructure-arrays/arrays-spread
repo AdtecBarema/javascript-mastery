@@ -1,0 +1,10 @@
+const a=[1,2,3,4,5]
+
+const b=[6,7,8,9,10]
+
+const merged =[...a,...b]
+console.log(merged);
+
+const add = (n1, n2)=>n1+n2;
+
+console.log(add(b))
