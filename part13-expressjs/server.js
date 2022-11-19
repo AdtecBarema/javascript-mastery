@@ -4,9 +4,9 @@ const app = express()
 const port = 3000
 
 //Simple route which response with Hello world
-app.get('/hello', (req, res) => {
-  res.send('Ola  Mundo  !')
-})
+// app.get('/api', (req, res) => {
+//   res.send('Ola  Mundo  !')
+// })
 
 
 //Our DB
@@ -23,5 +23,5 @@ app.get('/api/v1/todos', (req, res)=>{
 
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Example app listening at http://localhost:${port}`)
 })
